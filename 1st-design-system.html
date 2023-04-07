@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>1st Design System</title>
+        <link rel="stylesheet" href="resources/css/reset.css">
+        <link rel="stylesheet" href="resources/css/index.css">
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700;900&family=MuseoModerno:wght@700&family=Open+Sans:ital@0;1&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li><a href="#color">Color</a></li>
+                <li><a href="#typography">Typography</a></li>
+                <li><a href="#button-link">Button & Link</a></li>
+            </ul>
+        </nav>
+        <main>
+            <h1>The FIRST Design System</h1>
+            <section id="color">
+                <h2>Color</h2>
+                <div id="main-color">
+                    <div class="color-block">
+                        <div class="color-square" id="primary-color"></div>
+                        <p class="color-code">#22B517</p>
+                        <p class="note">primary</p>
+                    </div>
+                    <div class="color-block">
+                        <div class="color-square" id="accent-color"></div>
+                        <p class="color-code">#E88F4A</p>
+                        <p class="note">accent</p>
+                    </div>
+                </div>
+                <div id="greyscale-color">
+                    <div class="color-block">
+                        <div class="color-square" id="black-color"></div>
+                        <p class="color-code">#282828</p>
+                        <p class="note">black</p>
+                    </div>
+                    <div class="color-block">
+                        <div class="color-square" id="grey80-color"></div>
+                        <p class="color-code">#282828 a=0.8</p>
+                        <p class="note">grey 80</p>
+                    </div>
+                    <div class="color-block">
+                        <div class="color-square" id="grey60-color"></div>
+                        <p class="color-code">#282828 a=0.6</p>
+                        <p class="note">grey 60</p>
+                    </div>
+                    <div class="color-block">
+                        <div class="color-square" id="grey40-color"></div>
+                        <p class="color-code">#282828 a=0.4</p>
+                        <p class="note">grey 40</p>
+                    </div>
+                    <div class="color-block">
+                        <div class="color-square" id="grey20-color"></div>
+                        <p class="color-code">#282828 a=0.2</p>
+                        <p class="note">grey20</p>
+                    </div>
+                </div>
+            </section>
+            <section id="typography">
+                <h2>Typography</h2>
+                <div class="typo-block">
+                    <p class="typo-title" id="typo-h1">H1 Heading</p>
+                    <p class="note">MuseoModerno Bold 36 Uppercase</p>
+                </div>
+                <div class="typo-block">
+                    <p class="typo-title" id="typo-h2">H2 Heading</p>
+                    <p class="note">Merriweather Bold 24 Uppercase</p>
+                </div>
+                <div class="typo-block">
+                    <p class="typo-title" id="typo-p">Paragraph</p>
+                    <p class="note">Open Sans Regular 16</p>
+                </div>
+                <div class="typo-block">
+                    <p class="typo-title" id="typo-note">Note</p>
+                    <p class="note">Open Sans Regular 12 Uppercase</p>
+                </div>
+            </section>
+            <section id="button-link">
+                <h2>Button & Link</h2>
+                <div class="button">
+                    <div class="button-block">
+                        <button class="button-sample">default</button>
+                        <p class="note">default</p>
+                    </div>
+                    <div class="button-block">
+                        <button class="button-sample" id="btn-visited">visited</button>
+                        <p class="note">visited</p>
+                    </div>
+                    <div class="button-block">
+                        <button class="button-sample" id="btn-hover">hover</button>
+                        <p class="note">hover</p>
+                    </div>
+                    <div class="button-block">
+                        <button class="button-sample" id="btn-active">active</button>
+                        <p class="note">active</p>
+                    </div>
+                </div>
+                <div class="link">
+                    <div class="link-block">
+                        <p class="link-sample" id="lnk-default">link sample</p>
+                        <p class="note">default</p>
+                    </div>
+                    <div class="link-block">
+                        <p class="link-sample" id="lnk-visited">link sample</p>
+                        <p class="note">visited</p>
+                    </div>
+                    <div class="link-block">
+                        <p class="link-sample" id="lnk-hover">link sample</p>
+                        <p class="note">hover</p>
+                    </div>
+                    <div class="link-block">
+                        <p class="link-sample" id="lnk-active">link sample</p>
+                        <p class="note">active</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div>
+                <div id="question-block">
+                    <p>Q1: Cách canh giữa ul trong nav?</p>
+                    <p>Q2: Position: Relative vs Absolute?</p>
+                </div>
+                <div id="site-info">
+                    <p class="note">Design System by Me</p>
+                    <p class="note">Version 1.0</p>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
